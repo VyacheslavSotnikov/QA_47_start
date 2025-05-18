@@ -29,6 +29,7 @@ public class FirstTest {
         pause(3);
         WebElement btnSignUp = driver.findElement(By.cssSelector("a[href='/registration?url=%2Fterms-of-use']"));
         btnSignUp.click();
+        System.out.println(btnSignUp.getText());
 
         pause(5);
         WebElement inputName = driver.findElement(By.id("name"));
