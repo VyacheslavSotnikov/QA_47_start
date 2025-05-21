@@ -42,6 +42,7 @@ public class PhoneBookSelectors {
         WebElement btnLogin1 = driver.findElement(By.cssSelector("button[name='login']"));
         btnLogin1.click();
 
+        FirstTest.pause(3);
         driver.quit();
     }
 }
