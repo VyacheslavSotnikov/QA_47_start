@@ -122,7 +122,6 @@ public class PhoneBookIlCarroxPath{
     FirstTest.pause(2);
     WebElement btnOk = driver.findElement(By.xpath("//div[@id='cdk-overlay-0']//button[@class='positive-button ng-star-inserted']"));
     btnOk.click();
-
     }
 }
 
