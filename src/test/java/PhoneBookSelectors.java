@@ -37,6 +37,12 @@ public class PhoneBookSelectors {
         FirstTest.pause(3);
         WebElement InputPassword = driver.findElement(By.cssSelector("input[placeholder='Password']"));
         InputPassword.sendKeys("12345");
+
+        FirstTest.pause(3);
+        WebElement btnLogin1 = driver.findElement(By.cssSelector("button[name='login']"));
+        btnLogin1.click();
+
+        driver.quit();
     }
 }
 
