@@ -85,7 +85,7 @@ public class PhoneBookIlCarroxPath{
     }
 
     @Test
-    public void xPathPhonebookHW(){
+    public void loginPhoneBookPositiveTest(){
         driver.get("https://telranedu.web.app/home");
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
@@ -148,8 +148,8 @@ public class PhoneBookIlCarroxPath{
         driver.quit();
     }
 
-    @Test
-    public void ilCarroXPathHW(){
+º    @Test
+    public void loginIlCarroPositiveTest(){
         driver.get("https://ilcarro.web.app/search");
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
